@@ -1,0 +1,7 @@
+.venv/
+.venv48/
+__pycache__/
+*.pyc
+.DS_Store
+samples/*/result/
+samples/*/preview.jpg

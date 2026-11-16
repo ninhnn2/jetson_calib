@@ -1,0 +1,17 @@
+%YAML:1.0
+---
+image_width: 1280
+image_height: 720
+camera_model: pinhole-radtan4
+camera_matrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1.0688568706248875e+03, 0., 6.7093928327722097e+02, 0.,
+       1.0689188343344047e+03, 3.1536746610188993e+02, 0., 0., 1. ]
+distortion_coefficients: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ -3.6302940913813331e-01, 1.6401211322122664e-01,
+       3.6401049376543837e-04, 6.5002738596207715e-04, 0. ]

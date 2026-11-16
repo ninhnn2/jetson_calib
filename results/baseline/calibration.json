@@ -1,0 +1,502 @@
+{
+  "format": "camcal-1",
+  "model": "pinhole-radtan4",
+  "image_size": [
+    1920,
+    1080
+  ],
+  "intrinsics": {
+    "fx": 1603.2853059373313,
+    "fy": 1603.378251501607,
+    "cx": 1006.6589249158316,
+    "cy": 473.3011991528349
+  },
+  "distortion": {
+    "k1": -0.3630294091381333,
+    "k2": 0.16401211322122664,
+    "p1": 0.0003640104937654384,
+    "p2": 0.0006500273859620771
+  },
+  "conventions": "OpenCV: x right, y down, z forward; a pixel's centre at whole coordinates",
+  "created": "2026-11-16T21:52:18+07:00",
+  "camcal_version": "1.0.0",
+  "opencv_version": "4.8.0",
+  "charuco_offset_removed_px": [
+    0.0,
+    0.0
+  ],
+  "grade": "C",
+  "grade_meaning": "usable for undistortion and rough geometry; not for metric work",
+  "to_improve": [
+    "for B: error on held-out views 0.64 px, needs 0.50 or less: sharper, steadier pictures of a flat board",
+    "for B: corners along 33% of the picture's edge, needs 35%: let the board run out of the picture on every side"
+  ],
+  "rms_px": {
+    "train": 0.6311140301220597,
+    "held_out": 0.6428051697074613,
+    "p50": 0.4507825486038146,
+    "p95": 1.2231693270043906,
+    "max": 1.7953840148015638
+  },
+  "std": {
+    "fx": 2.4179474471546243,
+    "fy": 2.409158460630058,
+    "cx": 1.2712264401189912,
+    "cy": 1.1139125240115104,
+    "k1": 0.0012629028757204144,
+    "k2": 0.0021408246671839656,
+    "p1": 0.00014275250342159592,
+    "p2": 0.00011340785063969016,
+    "method": "from the fit's covariance"
+  },
+  "fov_deg": {
+    "horizontal": 69.44046672425274,
+    "vertical": 38.722425324361765,
+    "diagonal": 79.27609215423499
+  },
+  "quality": {
+    "views_given": 42,
+    "views_with_board": 42,
+    "views_used": 42,
+    "corners_used": 1985,
+    "corners_dropped": 74,
+    "rms_train": 0.6311140301220597,
+    "rms_held_out": 0.6428051697074613,
+    "coverage": 0.7847222222222222,
+    "border_coverage": 0.32608695652173914,
+    "regions_without_corners": [],
+    "tilt_deg_max": 27.75020151941936,
+    "tilted_share": 0.40476190476190477,
+    "distance_m": [
+      0.2795746139462492,
+      0.5355084595039059
+    ],
+    "sigma_f_rel": 0.0015081205061883954,
+    "sigma_c_px": 1.2712264401189912
+  },
+  "model_selection": [
+    {
+      "model": "pinhole-radtan4",
+      "rms_train": 0.6311140301220597,
+      "rms_held_out": 0.6428051697074613,
+      "chosen": true
+    },
+    {
+      "model": "fisheye",
+      "rms_train": 0.6316160409844485,
+      "rms_held_out": 0.6430703994319791,
+      "chosen": false
+    },
+    {
+      "model": "pinhole-radtan",
+      "rms_train": 0.6278365668238252,
+      "rms_held_out": 0.6407921798205852,
+      "chosen": false
+    },
+    {
+      "model": "pinhole-rational",
+      "rms_train": 0.627570838031299,
+      "rms_held_out": 0.6832148980925421,
+      "chosen": false
+    }
+  ],
+  "views": [
+    {
+      "name": "img_0001.png",
+      "corners": 30,
+      "rms_px": 0.7740627398828688,
+      "rms_held_out_px": 0.7865903069449561,
+      "tilt_deg": 9.059582033731335,
+      "distance_m": 0.32932622231604697
+    },
+    {
+      "name": "img_0002.png",
+      "corners": 50,
+      "rms_px": 0.7086777515242588,
+      "rms_held_out_px": 0.7406896966854299,
+      "tilt_deg": 11.455356896010455,
+      "distance_m": 0.32531388396137606
+    },
+    {
+      "name": "img_0003.png",
+      "corners": 48,
+      "rms_px": 0.6631611924355426,
+      "rms_held_out_px": 0.6833787100396583,
+      "tilt_deg": 17.093752491456645,
+      "distance_m": 0.3261184288127425
+    },
+    {
+      "name": "img_0004.png",
+      "corners": 42,
+      "rms_px": 0.6097971242580954,
+      "rms_held_out_px": 0.5946008822946917,
+      "tilt_deg": 9.417605275335209,
+      "distance_m": 0.33204815410393396
+    },
+    {
+      "name": "img_0005.png",
+      "corners": 48,
+      "rms_px": 0.6484174314204945,
+      "rms_held_out_px": 0.6269660362352341,
+      "tilt_deg": 6.453939311544795,
+      "distance_m": 0.32954241278560004
+    },
+    {
+      "name": "img_0006.png",
+      "corners": 45,
+      "rms_px": 0.7971414991836765,
+      "rms_held_out_px": 0.8216227067171019,
+      "tilt_deg": 5.989771728000346,
+      "distance_m": 0.3316047059146474
+    },
+    {
+      "name": "img_0007.png",
+      "corners": 63,
+      "rms_px": 0.5803567998548343,
+      "rms_held_out_px": 0.5994701569087048,
+      "tilt_deg": 5.896518410917501,
+      "distance_m": 0.5033637721823915
+    },
+    {
+      "name": "img_0008.png",
+      "corners": 63,
+      "rms_px": 0.4955648786365198,
+      "rms_held_out_px": 0.49126091519602616,
+      "tilt_deg": 7.744019516055035,
+      "distance_m": 0.5204301606814093
+    },
+    {
+      "name": "img_0009.png",
+      "corners": 57,
+      "rms_px": 0.460913578260262,
+      "rms_held_out_px": 0.45766886515017285,
+      "tilt_deg": 15.982013511045597,
+      "distance_m": 0.5278187821161571
+    },
+    {
+      "name": "img_0010.png",
+      "corners": 77,
+      "rms_px": 0.4771680021303696,
+      "rms_held_out_px": 0.4820170384341599,
+      "tilt_deg": 10.941948182871204,
+      "distance_m": 0.5259300420469412
+    },
+    {
+      "name": "img_0011.png",
+      "corners": 87,
+      "rms_px": 0.47210544328477044,
+      "rms_held_out_px": 0.4858357291827189,
+      "tilt_deg": 7.102348788065,
+      "distance_m": 0.5242518865121135
+    },
+    {
+      "name": "img_0012.png",
+      "corners": 75,
+      "rms_px": 0.4495413030516214,
+      "rms_held_out_px": 0.4839673030684166,
+      "tilt_deg": 3.4384690617332376,
+      "distance_m": 0.5230803680170902
+    },
+    {
+      "name": "img_0013.png",
+      "corners": 88,
+      "rms_px": 0.5100424869216599,
+      "rms_held_out_px": 0.527365500326581,
+      "tilt_deg": 6.753291080542049,
+      "distance_m": 0.5136143148383305
+    },
+    {
+      "name": "img_0014.png",
+      "corners": 66,
+      "rms_px": 0.5012256762756319,
+      "rms_held_out_px": 0.5236520972202067,
+      "tilt_deg": 14.580641003282073,
+      "distance_m": 0.5178998240714351
+    },
+    {
+      "name": "img_0015.png",
+      "corners": 55,
+      "rms_px": 0.4885903987322707,
+      "rms_held_out_px": 0.5089904987535752,
+      "tilt_deg": 18.97962808958314,
+      "distance_m": 0.5205256620569045
+    },
+    {
+      "name": "img_0016.png",
+      "corners": 15,
+      "rms_px": 0.810619596226983,
+      "rms_held_out_px": 0.8129512732967946,
+      "tilt_deg": 15.499501261696512,
+      "distance_m": 0.2795746139462492
+    },
+    {
+      "name": "img_0017.png",
+      "corners": 19,
+      "rms_px": 0.6561452185995525,
+      "rms_held_out_px": 0.6516525481156455,
+      "tilt_deg": 8.02437094981949,
+      "distance_m": 0.3433505731326775
+    },
+    {
+      "name": "img_0018.png",
+      "corners": 13,
+      "rms_px": 0.7906955950578042,
+      "rms_held_out_px": 0.7990090848963565,
+      "tilt_deg": 21.69545460413667,
+      "distance_m": 0.335030936529653
+    },
+    {
+      "name": "img_0019.png",
+      "corners": 13,
+      "rms_px": 0.2805180581613791,
+      "rms_held_out_px": 0.28322742689319347,
+      "tilt_deg": 2.844619178294497,
+      "distance_m": 0.32993333331687136
+    },
+    {
+      "name": "img_0020.png",
+      "corners": 23,
+      "rms_px": 0.8133720379478884,
+      "rms_held_out_px": 0.8221621882462499,
+      "tilt_deg": 9.127983692412315,
+      "distance_m": 0.3144806505076439
+    },
+    {
+      "name": "img_0021.png",
+      "corners": 35,
+      "rms_px": 0.7160714777458553,
+      "rms_held_out_px": 0.7287567489109715,
+      "tilt_deg": 6.795295888483985,
+      "distance_m": 0.29161029396772553
+    },
+    {
+      "name": "img_0022.png",
+      "corners": 36,
+      "rms_px": 0.8417308753135264,
+      "rms_held_out_px": 0.8614642053979155,
+      "tilt_deg": 14.372497330535177,
+      "distance_m": 0.2941931282597944
+    },
+    {
+      "name": "img_0023.png",
+      "corners": 60,
+      "rms_px": 0.7969520210885798,
+      "rms_held_out_px": 0.7907188089100421,
+      "tilt_deg": 17.222511288241737,
+      "distance_m": 0.30630175938477605
+    },
+    {
+      "name": "img_0024.png",
+      "corners": 64,
+      "rms_px": 0.7115955934221719,
+      "rms_held_out_px": 0.7434164407972405,
+      "tilt_deg": 14.056201488757086,
+      "distance_m": 0.3045164045525444
+    },
+    {
+      "name": "img_0025.png",
+      "corners": 44,
+      "rms_px": 0.4173087399509469,
+      "rms_held_out_px": 0.44109409969477675,
+      "tilt_deg": 3.729029397321836,
+      "distance_m": 0.32265165431493253
+    },
+    {
+      "name": "img_0026.png",
+      "corners": 53,
+      "rms_px": 0.6605339161659277,
+      "rms_held_out_px": 0.6759365048347763,
+      "tilt_deg": 22.73902584982215,
+      "distance_m": 0.3390044898696812
+    },
+    {
+      "name": "img_0027.png",
+      "corners": 35,
+      "rms_px": 0.840060430851247,
+      "rms_held_out_px": 0.8404418771352364,
+      "tilt_deg": 23.81420490685001,
+      "distance_m": 0.3538934092602963
+    },
+    {
+      "name": "img_0028.png",
+      "corners": 45,
+      "rms_px": 0.838798704984757,
+      "rms_held_out_px": 0.8453292660099789,
+      "tilt_deg": 23.028778696320117,
+      "distance_m": 0.3566355997847043
+    },
+    {
+      "name": "img_0029.png",
+      "corners": 45,
+      "rms_px": 0.7653205194648872,
+      "rms_held_out_px": 0.7659900475082919,
+      "tilt_deg": 24.807523542248344,
+      "distance_m": 0.35432682212350086
+    },
+    {
+      "name": "img_0030.png",
+      "corners": 35,
+      "rms_px": 0.8605264958082722,
+      "rms_held_out_px": 0.8671066043171739,
+      "tilt_deg": 27.75020151941936,
+      "distance_m": 0.36520282504969825
+    },
+    {
+      "name": "img_0031.png",
+      "corners": 24,
+      "rms_px": 0.47179036766249954,
+      "rms_held_out_px": 0.4443810930583542,
+      "tilt_deg": 20.29998415991609,
+      "distance_m": 0.3630183803160024
+    },
+    {
+      "name": "img_0032.png",
+      "corners": 30,
+      "rms_px": 0.788181416520232,
+      "rms_held_out_px": 0.7793274064112874,
+      "tilt_deg": 27.169259734551538,
+      "distance_m": 0.39280088037234545
+    },
+    {
+      "name": "img_0033.png",
+      "corners": 28,
+      "rms_px": 0.6699556901347967,
+      "rms_held_out_px": 0.7254428169801281,
+      "tilt_deg": 27.166743302686804,
+      "distance_m": 0.37717308711549064
+    },
+    {
+      "name": "img_0034.png",
+      "corners": 23,
+      "rms_px": 0.36311769325481896,
+      "rms_held_out_px": 0.3842389316020508,
+      "tilt_deg": 16.638745209864062,
+      "distance_m": 0.38532269526536395
+    },
+    {
+      "name": "img_0035.png",
+      "corners": 55,
+      "rms_px": 0.7642639612100177,
+      "rms_held_out_px": 0.7909596466542913,
+      "tilt_deg": 6.272652173870963,
+      "distance_m": 0.3731359962312427
+    },
+    {
+      "name": "img_0036.png",
+      "corners": 68,
+      "rms_px": 0.6841327496935456,
+      "rms_held_out_px": 0.6917266169753173,
+      "tilt_deg": 7.827562305109092,
+      "distance_m": 0.3701662398250717
+    },
+    {
+      "name": "img_0037.png",
+      "corners": 60,
+      "rms_px": 0.7234733977082548,
+      "rms_held_out_px": 0.7214068547623572,
+      "tilt_deg": 12.498582182969297,
+      "distance_m": 0.3704421993166124
+    },
+    {
+      "name": "img_0038.png",
+      "corners": 88,
+      "rms_px": 0.5370225019188414,
+      "rms_held_out_px": 0.5766813078814779,
+      "tilt_deg": 12.168297602705453,
+      "distance_m": 0.48143384633210234
+    },
+    {
+      "name": "img_0039.png",
+      "corners": 33,
+      "rms_px": 0.2808305692903569,
+      "rms_held_out_px": 0.2797037085742826,
+      "tilt_deg": 26.544795839128337,
+      "distance_m": 0.47825576678470383
+    },
+    {
+      "name": "img_0040.png",
+      "corners": 62,
+      "rms_px": 0.4668099181282929,
+      "rms_held_out_px": 0.4703905175264643,
+      "tilt_deg": 18.386380457017857,
+      "distance_m": 0.5355084595039059
+    },
+    {
+      "name": "img_0041.png",
+      "corners": 40,
+      "rms_px": 0.3700691680118094,
+      "rms_held_out_px": 0.36839140913131,
+      "tilt_deg": 9.274654412036309,
+      "distance_m": 0.43459351515455324
+    },
+    {
+      "name": "img_0042.png",
+      "corners": 45,
+      "rms_px": 0.8281532885995587,
+      "rms_held_out_px": 0.8354375264639508,
+      "tilt_deg": 11.127113314214055,
+      "distance_m": 0.37764598059869736
+    }
+  ],
+  "dropped_views": [],
+  "board": {
+    "type": "charuco",
+    "squares_x": 9,
+    "squares_y": 12,
+    "square_mm": 29.133,
+    "marker_mm": 21.8498,
+    "dictionary": "DICT_4X4_250"
+  },
+  "source": {
+    "source": "csi",
+    "requested_size": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "rotate": 180,
+    "kind": "csi",
+    "sensor": 0,
+    "sensor_mode": null,
+    "pipeline": "nvarguscamerasrc sensor-id=0 ! video/x-raw(memory:NVMM),width=1920,height=1080,framerate=30/1 ! nvvidconv flip-method=2 ! video/x-raw,format=BGRx ! videoconvert ! video/x-raw,format=BGR ! appsink drop=true max-buffers=1 sync=false",
+    "image_size": [
+      1920,
+      1080
+    ]
+  },
+  "baseline": {
+    "status": "provisional",
+    "made": "2026-11-16",
+    "session": "~/calib/csi0_b, 42 pictures",
+    "board": "ChArUco A3 9x12, square measured 29.133 mm (its 100 mm rule printed 97.11 mm)",
+    "camera": "IMX219 with the 160 degree lens, CSI sensor 0, sensor mode 2: 1920x1080 cut 1:1 from the sensor centre, 30 fps, rotated 180, as ucpeer-detect runs it",
+    "uncertainty": {
+      "note": "the sheet was paper on a tiled wall, not flat, so the std above is too small. These are the fit over parts of the sheet (all of it, each half, without the 2 outer columns on each side)",
+      "fx_px": [
+        1579.3,
+        1612.9
+      ],
+      "cx_px": [
+        1001.7,
+        1010.8
+      ],
+      "cy_px": [
+        465.1,
+        476.1
+      ],
+      "for_error_propagation": {
+        "fx_relative": 0.015,
+        "cx_px": 8.0,
+        "cy_px": 8.0
+      }
+    },
+    "use_for": "undistortion, pixel to ray, rough distances (about 1.5 percent), building the pipeline",
+    "not_for": "metric work (SLAM, ADAS distances): replace it with a calibration on a flat board, grade A or B"
+  },
+  "uncertainty": {
+    "fx_relative": 0.015,
+    "cx_px": 8.0,
+    "cy_px": 8.0,
+    "method": "1 sigma: the spread between fits to parts of the sheet (the sheet was not flat)"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format": "camcal-1",
+  "model": "pinhole-radtan4",
+  "image_size": [
+    1920,
+    1080
+  ],
+  "intrinsics": {
+    "fx": 1531.7039491818832,
+    "fy": 1531.7039491818832,
+    "cx": 1029.2271478708149,
+    "cy": 467.6189711673109
+  },
+  "distortion": {
+    "k1": 0.0,
+    "k2": 0.0,
+    "p1": 0.0,
+    "p2": 0.0
+  },
+  "conventions": "OpenCV: x right, y down, z forward; a pixel's centre at whole coordinates",
+  "derived": [
+    "undistort alpha=0"
+  ],
+  "note": "the undistorted picture: a pinhole camera, no distortion left"
+}

@@ -1,0 +1,11 @@
+{
+  "board": {
+    "type": "charuco",
+    "squares_x": 5,
+    "squares_y": 7,
+    "square_mm": 114.0,
+    "marker_mm": 85.5,
+    "dictionary": "DICT_4X4_250",
+    "note": "ground board for the extrinsics"
+  }
+}
